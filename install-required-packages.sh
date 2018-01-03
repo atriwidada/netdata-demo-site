@@ -583,6 +583,9 @@ declare -A pkg_curl=(
 declare -A pkg_git=(
 	 ['gentoo']="dev-vcs/git"
 	['default']="git"
+	
+	# exceptions
+	['ubuntu-10.04']="git-core"
 	)
 
 declare -A pkg_gcc=(
